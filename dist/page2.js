@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],[function(n,e,t){"use strict";e.a=((n="hel88l7888997o99ubbbu99")=>{const e=document.createElement("div");return e.innerHTML=n,e})},,,function(n,e,t){n.exports=t(4)},function(n,e,t){"use strict";t.r(e);var o=t(0);document.body.appendChild(Object(o.a)())}],[[3,0]]]);
+//# sourceMappingURL=page2.js.map

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>page1</title>
+    <script src="./common.js"></script>
+    <script type="text/javascript">
+        isIE = function(ver){
+            var b = document.createElement('b');
+            b.innerHTML = '<!--[if IE ' + ver + ']><i></i><![endif]-->';
+            return b.getElementsByTagName('i').length === 1
+        };
+    </script>
+    <style>
+        .trip-unsupported-browser {
+            display: block;
+            background: url("//s.tbcdn.cn/g/platform/nw/1.2.19/img/base/ie-notice.png") 3px 5px #f5ee69 no-repeat;
+            border: 1px solid #ccc;
+            height: 40px;
+            line-height: 40px;
+            margin: 0 auto;
+            padding-left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        if(isIE(8)){
+            document.body.innerHTML = "<div class='trip-unsupported-browser'>您当前使用的浏览器版本过低，请升级至IE9或以上版本!</div>"
+        }
+    </script>
+    <div id="App"></div>
+    <!-- 项目脚本资源加载 -->
+    <script src="./page2.js"></script>
+</body>
+</html>

@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],[function(n,e,t){"use strict";e.a=((n="hel88l7888997o99ubbbu99")=>{const e=document.createElement("div");return e.innerHTML=n,e})},function(n,e,t){n.exports=t(2)},function(n,e,t){"use strict";t.r(e);var o=t(0);document.body.appendChild(Object(o.a)("word88er"))}],[[1,0]]]);
+//# sourceMappingURL=page1.js.map
